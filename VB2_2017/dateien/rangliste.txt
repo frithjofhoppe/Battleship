@@ -1,0 +1,7 @@
+Frithjof;30;490
+Frithjof;60;470
+Joerg;22;254
+Hans-Ueli;20;220
+Hoppe;21;162
+Hugo;88;426
+Paul;88;542
