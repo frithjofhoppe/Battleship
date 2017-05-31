@@ -11,7 +11,7 @@ using System.IO;
 using System.Threading;
 
 namespace VB2_2017
-{//völlig andere Aenderung 
+{//völlig andere Aenderung asdfasdf
     public partial class SchiffeVersenkenForm : Form  // 1a
     {
         /** 1d
