@@ -59,6 +59,10 @@ namespace VB2_2017
             sortierteDaten.Clear();
         }
 
+        /**
+         * -Schreibt die Daten in die TextBox
+         * -Ausgabe wie folgt: Name;Zeit;Punkte
+         * */
         private void datenAusgeben()
         {
             try

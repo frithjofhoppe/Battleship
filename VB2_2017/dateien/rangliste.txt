@@ -5,3 +5,4 @@ Hans-Ueli;20;220
 Hoppe;21;162
 Hugo;88;426
 Paul;88;542
+Hoppe;21;205

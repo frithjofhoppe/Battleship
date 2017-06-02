@@ -37,30 +37,30 @@
             // lblBestenliste
             // 
             this.lblBestenliste.AutoSize = true;
-            this.lblBestenliste.Location = new System.Drawing.Point(9, 15);
-            this.lblBestenliste.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblBestenliste.Location = new System.Drawing.Point(12, 18);
             this.lblBestenliste.Name = "lblBestenliste";
-            this.lblBestenliste.Size = new System.Drawing.Size(96, 13);
+            this.lblBestenliste.Size = new System.Drawing.Size(128, 17);
             this.lblBestenliste.TabIndex = 0;
             this.lblBestenliste.Text = "Unsere Champions";
             // 
             // txtBestenliste
             // 
-            this.txtBestenliste.Location = new System.Drawing.Point(11, 59);
-            this.txtBestenliste.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtBestenliste.Location = new System.Drawing.Point(15, 73);
+            this.txtBestenliste.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtBestenliste.Multiline = true;
             this.txtBestenliste.Name = "txtBestenliste";
             this.txtBestenliste.ReadOnly = true;
-            this.txtBestenliste.Size = new System.Drawing.Size(240, 118);
+            this.txtBestenliste.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtBestenliste.Size = new System.Drawing.Size(319, 144);
             this.txtBestenliste.TabIndex = 1;
             this.txtBestenliste.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // btnSchliessen
             // 
-            this.btnSchliessen.Location = new System.Drawing.Point(11, 198);
-            this.btnSchliessen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSchliessen.Location = new System.Drawing.Point(15, 244);
+            this.btnSchliessen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSchliessen.Name = "btnSchliessen";
-            this.btnSchliessen.Size = new System.Drawing.Size(94, 30);
+            this.btnSchliessen.Size = new System.Drawing.Size(125, 37);
             this.btnSchliessen.TabIndex = 2;
             this.btnSchliessen.Text = "Schliessen";
             this.btnSchliessen.UseVisualStyleBackColor = true;
@@ -68,15 +68,16 @@
             // 
             // SpielstandAnzeigenFormen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(262, 249);
+            this.ClientSize = new System.Drawing.Size(349, 306);
             this.Controls.Add(this.btnSchliessen);
             this.Controls.Add(this.txtBestenliste);
             this.Controls.Add(this.lblBestenliste);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "SpielstandAnzeigenFormen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bestenliste";
