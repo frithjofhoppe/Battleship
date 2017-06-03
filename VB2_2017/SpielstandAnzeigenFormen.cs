@@ -11,7 +11,7 @@ using System.IO;
 using System.Linq;
 
 namespace VB2_2017
-{//neu
+{
     public partial class SpielstandAnzeigenFormen : Form
     {
         public string pfad { get; set; } //Pfad aus der klasse 'SchiffeVersenkenForm'
