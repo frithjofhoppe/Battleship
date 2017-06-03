@@ -42,6 +42,7 @@
             this.lblBestenliste.Size = new System.Drawing.Size(128, 17);
             this.lblBestenliste.TabIndex = 0;
             this.lblBestenliste.Text = "Unsere Champions";
+            this.lblBestenliste.Click += new System.EventHandler(this.lblBestenliste_Click);
             // 
             // txtBestenliste
             // 
@@ -77,7 +78,7 @@
             this.Controls.Add(this.lblBestenliste);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "SpielstandAnzeigenFormen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bestenliste";
